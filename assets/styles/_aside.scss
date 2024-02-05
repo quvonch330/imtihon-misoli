@@ -1,0 +1,81 @@
+.aside {
+    align-items: center;
+    justify-content: center;
+    width: 1920px;
+    height: 763px;
+    background: rgb(39, 43, 48);
+    display: flex;
+    gap: 30px;
+
+    .aside__card {
+        width: 450px;
+        height: 523px;
+        background: rgb(33, 37, 41);
+
+        span {
+            margin-top: 50px;
+            color: rgb(243, 243, 243);
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 29px;
+            letter-spacing: 0%;
+            text-align: left;
+            margin-left: 30px;
+            position: relative;
+            top: 30px;
+        }
+
+        img {
+            margin-top: 30px;
+            margin-left: 30px;
+        }
+
+        p {
+            color: rgb(243, 243, 243);
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 130%;
+            letter-spacing: 0%;
+            text-align: left;
+            margin-left: 30px;
+            margin-top: 50px;
+        }
+    }
+}
+
+.aside__img {
+    width: 1920px;
+    height: 400px;
+    background-image: url(../images/Rectangle\ 124.png);
+    background-repeat: no-repeat;
+
+    .img__text{
+        padding-top: 104px;
+        padding-left: 255px;
+    }
+    span {
+        color: rgb(243, 243, 243);
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 44px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+
+    p {
+        color: rgb(243, 243, 243);
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 130%;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    samp{
+        color: rgb(243, 243, 243);
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 130%;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+}
